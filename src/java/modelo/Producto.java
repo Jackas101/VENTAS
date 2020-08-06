@@ -9,7 +9,7 @@ package modelo;
  *
  * @author Nap
  */
-public class Ventas {
+public class Producto {
     private int idproducto;
     private String nombre;
     private String precio;
@@ -17,11 +17,11 @@ public class Ventas {
     private String descripcion;
 
     
-     public Ventas(){
+     public Producto(){
         
     }
     
-    public Ventas(int idproducto,String nombre, String precio, String stock, String descripcion){
+    public Producto(int idproducto,String nombre, String precio, String stock, String descripcion){
        this.idproducto=idproducto;
         this.nombre = nombre;
         this.precio = precio;
